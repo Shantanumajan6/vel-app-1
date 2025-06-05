@@ -8,7 +8,7 @@ pipeline {
 
 			steps {
 				
-			echo "hello all"
+			echo "2025q1.1-PR"
 }
 }
 
@@ -16,7 +16,7 @@ pipeline {
 
 			steps {
 				
-			echo "hello all"
+			echo "2025q1.1-PR"
 }
 }
 
