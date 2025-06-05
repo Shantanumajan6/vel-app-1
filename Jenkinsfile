@@ -10,7 +10,15 @@ pipeline {
 				
 			echo "hello all"
 }
-}	
+}
+
+			stage ('two') {
+
+			steps {
+				
+			echo "hello all"
+}
+}
 
 }
 
