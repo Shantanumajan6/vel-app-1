@@ -1,1 +1,24 @@
 //jenkins file for vel-app-1
+pipeline {
+
+    agent any
+
+  stages {
+
+          stage ("one") {
+
+              steps {
+                      echo "this is master branch"
+              }
+          }
+
+  }
+
+  post {
+    success {
+            echo "Job Successful"
+            
+    }
+  }
+
+}
